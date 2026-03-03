@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lat: -- , Long: --"
+        android:layout_marginBottom="16dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBarFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="40"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnFontColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Font Color"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnBgColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Background Color"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvResume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+</LinearLayout>
